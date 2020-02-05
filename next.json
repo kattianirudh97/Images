@@ -1,0 +1,100 @@
+{
+    "scanId": "1c9a0c30-4325-11ea-a68e-ed5affdb949a",
+    "status": "EXTRACTED",
+    "imageUrl": "https://s3-us-west-2.amazonaws.com/gimlet-dev/1c9a0c30-4325-11ea-a68e-ed5affdb949a/1c9a0c30-4325-11ea-a68e-ed5affdb949a_pdf.pdf",
+    "profile": "invoice",
+    "licenseConsumed": 1,
+    "fileType": "application/pdf",
+    "uploadDateTime": "2020-01-30T05:55:26.093",
+    "lastModifyDateTime": "2020-01-30T05:55:28.923",
+    "userId": "InfrrdUser:93932fda-cea2-4f3b-ba11-84e8d459a9fd,KongUsername:f70679ef-d8ff-4e43-bd01-2014e582448d",
+    "lineitems": [],
+    "fields": [
+        {
+            "name": "merchantname",
+            "value": "Tech Mahindra",
+            "confidence": 0.76,
+            "matchedVicinity": null,
+            "operation": null,
+            "cordinates": [{
+                "description" : "Tech ",
+                "startX": 1513,
+                "startY": 290,
+                "endX": 1594,
+                "endY": 315,
+                "pageNo": 1
+            }, { 
+                "description" : "Mahindra ",
+                "startX": 1594,
+                "startY": 290,
+                "endX": 1747,
+                "endY": 316,
+                "pageNo": 1
+             }]
+        },
+        {
+            "name": "totalbillamount",
+            "value": "Limited INFOCITY",
+            "confidence": 0.76,
+            "matchedVicinity": null,
+            "operation": null,
+            "cordinates": [{
+                "description" : "Limited ",
+                "startX": 1747,
+                "startY": 292,
+                "endX": 1859,
+                "endY": 317,
+                "pageNo": 1
+            }, { 
+                "description" : "INFOCITY ",
+                "startX": 1514,
+                "startY": 339,
+                "endX": 1671,
+                "endY": 364,
+                "pageNo": 1
+             }]
+        }
+    ],
+    "histories": null,
+    "localeEntity": {
+        "city": "mumbai",
+        "countryCode": "IN",
+        "localeValue": "en_in",
+        "language": "en",
+        "countryName": "india"
+    },
+    "isCorrected": false,
+    "correctedBy": "",
+    "scanRequestAdditionalInfo": {
+        "enableMerchantLookup": false,
+        "signedValues": false,
+        "additionalFields": [
+            "taxId",
+            "documentId",
+            "locale"
+        ],
+        "fixedHeaders": "true",
+        "willWait": false,
+        "getLines": true,
+        "fieldsToProcess": {
+            "lineitems": false,
+            "taxId": false,
+            "merchantname": false,
+            "totalbillamount": false,
+            "documentId": false,
+            "invoiceDate": false,
+            "invoiceno": false,
+            "extractionScore": false,
+            "locale": false
+        },
+        "getCoordinates": true,
+        "additionalLineFields": [],
+        "enableLogoDetection": false,
+        "text": true,
+        "enableMerchantEnrichment": false,
+        "additionalStoreDetails": [],
+        "absConfidence": "false"
+    },
+    "wrapperLineitems": [],
+    "wrapperFields": null
+}
